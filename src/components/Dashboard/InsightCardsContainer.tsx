@@ -9,7 +9,7 @@ function InsightCardsContainer() {
                     <h2>ZooTools insights</h2>
                     <h3>Making analytics simple and actionable</h3>
                 </div>
-                <button className="text-black text-lg rounded-xl font-normal border-2 border-neutral-400 my-2 bg-white">Ask questions</button>
+                <button className="text-black text-lg rounded-xl font-normal border-2 border-neutral-400 my-3.5 bg-white">Ask question</button>
             </div>
             <div className="grid grid-cols-2 gap-8 mt-10">
                 {insightsData.map((item, index) => (
