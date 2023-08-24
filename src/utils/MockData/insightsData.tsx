@@ -25,7 +25,7 @@ export const insightsData = [
     },
     {
         imgSrc: Bulb,
-        bgColor: "bg-yellow-400 p-3",
+        bgColor: "bg-yellow-400 p-2.5",
         heading: "Growth tips for you to try next",
         text: "",
         tip: "Have you considered creating email flows to remind your subscribers to invite their friends and celebrate referrals milestones? Read this guide on how to do it.",
