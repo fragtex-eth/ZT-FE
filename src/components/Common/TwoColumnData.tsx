@@ -24,8 +24,8 @@ const TwoColumnData: FC<ITwoColumnData> = ({ data, data2, title, toggleOptions, 
         <tbody className="">
           {activeData.map((row, index) => (
             <tr key={index} className="flex justify-between text-left text-xl">
-              <td className="py-2 w-4/5 relative">
-              <span className="relative z-10 inline-block w-full">
+              <td className="py-1.5 w-4/5 relative">
+              <span className="relative z-10 inline-block w-full leading-8">
                 <span className="relative z-20 pl-3 ">{row.country}</span>
                 <div
                   className="bg-yellow-100 absolute bottom-0 left-0 z-10 h-full rounded"

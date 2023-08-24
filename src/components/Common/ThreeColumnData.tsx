@@ -6,7 +6,7 @@ const ThreeColumnData: FC<IThreeColumnData> = ({ data, title, buttonText }) => {
   return (
     <div className="container mx-auto p-7 bg-white text-left bShadow2">
       <h4 className="text-3xl font-bold">{title}</h4>
-      <table className="min-w-full divide-y divide-transparent my-5 text-xl mb-8">
+      <table className="min-w-full divide-y divide-transparent my-6 text-xl mb-8">
         <thead className="">
           <tr className="text-black text-left ">
             <th className="font-normal py-3">Email</th>
