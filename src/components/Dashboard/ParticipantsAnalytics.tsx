@@ -71,7 +71,7 @@ const ParticipantsAnalytics: React.FC = () => {
             <Tooltip
               content={<CustomTooltip />}
               cursor={false}
-              position={{ x: barGraphData?.x ? barGraphData.x - 97 : 0, y: barGraphData?.y ? barGraphData.y - 110 : 0 }}
+              position={{ x: barGraphData?.x ? barGraphData.x - 98 : 0, y: barGraphData?.y ? barGraphData.y - 110 : 0 }}
             />
             <Bar dataKey="amount" fill="#FED500" radius={[20, 20, 20, 20]} barSize={22.5} onMouseOver={(data) => {
               setBarGraphData(data);
