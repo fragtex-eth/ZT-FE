@@ -14,7 +14,7 @@ import { IBarGraphData, ICustomTooltipProps } from '../../types/Dashboard/Partic
 
 const ParticipantsAnalytics: React.FC = () => {
   const [barGraphData, setBarGraphData] = useState<IBarGraphData | null>(null);
-  const [showTooltip, setShowTooltip] = useState<boolean>(true);
+  const [showTooltip, setShowTooltip] = useState<boolean>(false);
   const [timeFrame, setTimeFrame] = useState<string>('30d');
   const options: string[] = ['1h', '24h', '30d', '60d'];
 
