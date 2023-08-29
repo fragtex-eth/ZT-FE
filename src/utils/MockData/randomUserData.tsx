@@ -13,7 +13,7 @@ export const leaderboardData = [
     {
       email: 'aaron.michael@arg.org',
       friendsInvited: 1200,
-      country: 'Prague'
+      country: 'Czech R.'
     },
     {
       email: 'jeremy.runner@aol.com',
